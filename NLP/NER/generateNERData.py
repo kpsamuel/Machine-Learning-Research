@@ -190,4 +190,5 @@ class PrepareDataset():
 ## preparing dataset from above avaliable raw data entities (i.e fruit)
 #  nerdata = PrepareDataset(entity_name="fruits", entity_label="FRUIT")
     
-    
+## generate and write data of 5000 sentences (default -1 flag will generate all posible sentences) and save to default filename.
+#  nerdata.transformdata(number_of_sentences=5000)
